@@ -3,6 +3,8 @@ FROM ubuntu:12.04
 # Usage: File Author/Maintainer
 MAINTAINER vlead-systems "systems@vlabs.ac.in"
 
+LABEL maintainer=""
+
 #Usage: Setting proxy environment
 #ENV http_proxy "http://proxy.iiit.ac.in:8080"
 #ENV https_proxy "http://proxy.iiit.ac.in:8080"
